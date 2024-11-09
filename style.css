@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.left, .right {
+    padding: 20px;
+}
+.left {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+.left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.left h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+.left p {
+    font-size: 16px;
+}
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.info-list, .skills-list {
+    list-style: none;
+    margin-top: 10px;
+}
+.info-list li, .skills-list li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.right h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.soft-skills, .interest-list {
+    list-style: none;
+    padding-left: 20px;
+}
+.soft-skills li, .interest-list li {
+    margin-bottom: 5px;
+}
+.reference {
+    margin-top: 20px;
+}
